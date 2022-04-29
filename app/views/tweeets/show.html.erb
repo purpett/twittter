@@ -1,10 +1,28 @@
-<p style="color: green"><%= notice %></p>
-
-<%= render @tweeet %>
-
-<div>
-  <%= link_to "Edit this tweeet", edit_tweeet_path(@tweeet) %> |
-  <%= link_to "Back to tweeets", tweeets_path %>
-
-  <%= button_to "Destroy this tweeet", @tweeet, method: :delete %>
+<div class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <h1 class="title">Show tweeet</h1>
+        <%= render @tweeet %>
+        <br />
+        <div class="is-flex">
+          <%= link_to "Edit this tweeet", edit_tweeet_path(@tweeet), class: "button is-info mr-2" %> 
+          <%= button_to "Destroy this tweeet", @tweeet, method: :delete, class: "button is-danger", data: { confirm: "Are you sure you want to delete this tweeet?" } %>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<nav class="navbar is-fixed-bottom">
+  <div class="navbar-menu">
+    <div class="navbar-item">
+      <div class="field is-grouped">
+        <p class="control">
+          <%= link_to 'Back to tweeets', tweeets_path, class: "button is-dark" %>
+        </p>
+      </div>
+    </div>
+  </div>
+</nav>
