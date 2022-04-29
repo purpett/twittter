@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Twitter mockup. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tutorial followed available at: 
+- Part One: https://www.youtube.com/watch?v=5gUysPm64a4&t=1s
+- Part Two: https://www.youtube.com/watch?v=ZxkbFOe3lRY
+- Part Three: https://www.youtube.com/watch?v=V4h7-hR_WME
